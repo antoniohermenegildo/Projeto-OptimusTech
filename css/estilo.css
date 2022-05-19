@@ -12,12 +12,10 @@ a{
 }
 
 body{
-    font-family: 'Inter', sans-serif;
-}
-
-.container{
     width: 90%;
     margin: 0 auto;
+
+    font-family: 'Inter', sans-serif;
 }
 
 .cabecalho{
@@ -33,7 +31,7 @@ body{
 .cabecalho__menu{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 2rem;
     flex-grow: 2;   
 }
 
@@ -75,5 +73,80 @@ body{
 
 .botao--alternativo:hover{
     color: #FFFFFF;
+}
+
+.sessao__sobreNos{
+    margin: 6rem 0;
+}
+
+.destaque{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    margin-bottom: 6rem;
+
+    text-align: center;
+
+}
+
+.sessao__titulo{
+    font-size: 1em;
+    font-weight: 600;
+
+    color: #8E2424;
+}
+
+.sessao__textoDestaque{    
+    font-size: 3em;
+    font-weight: 600;
+
+    letter-spacing: -0.02em;
+    
+    color: #101828;
+}
+
+.sessao__texto{
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.75em;
+
+    margin: 0 15rem;
+
+    color: #667085;
+}
+
+.maisInformacoes{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+
+.informacao{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 18rem;
+}
+
+.informacao__textoDestaque{
+    font-size: 3.75em;
+    font-weight: 600;
+    
+    color: #8E2424;
+}
+
+.informacao__titulo{
+    font-size: 1.125em;
+    font-weight: 500;
+
+    color: #101828;
+}
+
+.informacao__texto{
+    font-size: 1em;
+    font-weight: 400;
+
+    color: #667085;
 }
 

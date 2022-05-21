@@ -34,7 +34,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 10rem;
+    gap: 6rem;
 }
 
 .cabecalho__menu{
@@ -120,7 +120,7 @@ body{
     font-size: 1.25em;
     line-height: 1.75em;
 
-    margin: 0 15rem;
+    margin: 0 12rem;
 
     color: var(--cinza);
 }
@@ -159,3 +159,61 @@ body{
     color: var(--cinza);
 }
 
+.sessao__vagasAbertas{
+    margin: 6rem 0;
+    padding-top: 6rem;
+}
+
+.fundo{
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 1rem;
+    padding: 0.25rem 0.75rem;
+}
+
+.imagem__destaque{
+    width: 100%;
+}
+
+.vagas{
+    width: 70%;
+    margin: 4rem auto;
+
+}
+
+.vagas__area{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.vagas__titulo{
+    font-weight: 500;
+    font-size: 1.5em;
+    color: var(--azul-escuro);
+}
+
+.vaga{
+    border: 1px solid #eaecf0;
+    border-radius: 0.5rem;
+
+    padding: 1.5rem;
+
+}
+
+.vaga__titulo{
+    font-weight: 500;
+    font-size: 1.2em;
+    color: var(--azul-escuro);
+}
+
+.vaga__informacao{
+    display: flex;
+    gap: 2rem;
+
+    margin-top: 2rem;
+
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--cinza);
+}

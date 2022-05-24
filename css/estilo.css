@@ -217,3 +217,80 @@ body{
     font-size: 1em;
     color: var(--cinza);
 }
+
+.sessao__colaboradores{
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 0.5rem;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin: 6rem 0;
+}
+
+.colaboradores{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding: 4rem;
+
+    text-align: center;
+}
+
+.sessao__colaborador{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.colaborador__textoDestaque{
+    font-size: 2em;
+    font-weight: 500;
+
+    letter-spacing: -0.02em;
+    
+    color: var(--azul-escuro);
+}
+
+.rodape{
+    width: 100vw;
+    margin-left: -10%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+
+    background: #F9FAFB;
+
+    padding: 3rem;
+}
+
+.rodape__textoDestaque{
+    font-size: 2em;
+    font-weight: 600;
+
+    letter-spacing: -0.02em;
+    
+    color: var(--azul-escuro);
+}
+
+.email{
+    width: 360px;
+    height: 45px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    padding: 12px 14px 12px 16px;
+}
+
+.creditos{
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.75em;
+
+    color: #98A2B3;
+}
